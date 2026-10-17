@@ -1,0 +1,6 @@
+{
+  "name": "TADI - Invitaciones Digitales e Interactivas",
+  "description": "Catálogo exclusivo de invitaciones digitales e interactivas para bodas, 15 años, cumpleaños y eventos con confirmación por WhatsApp, GPS y música.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
