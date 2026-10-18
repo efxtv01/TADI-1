@@ -23,11 +23,16 @@ export const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate, onOpenO
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           
-          {/* Zone 1: Brand title, single element */}
+          {/* Zone 1: Brand title and logo */}
           <button 
             onClick={() => handleNavClick('home')}
-            className="font-serif text-2xl sm:text-3xl font-semibold tracking-wider text-stone-900 group flex items-center text-left cursor-pointer"
+            className="font-serif text-2xl sm:text-3xl font-semibold tracking-wider text-stone-900 group flex items-center gap-2.5 text-left cursor-pointer"
           >
+            <img 
+              src="/tadi-logo.svg" 
+              alt="Logotipo TADI" 
+              className="h-9 sm:h-11 w-auto object-contain transition-transform group-hover:scale-105" 
+            />
             <span className="text-[#997736] font-bold">TADI</span>
           </button>
 

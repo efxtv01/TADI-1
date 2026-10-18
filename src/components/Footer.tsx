@@ -22,8 +22,15 @@ export const Footer: React.FC<FooterProps> = ({ onOpenOrderForm, onNavigate }) =
           <div className="space-y-4">
             <button 
               onClick={() => handleNav('home')}
-              className="font-serif text-2xl font-bold tracking-wider text-white inline-block text-left cursor-pointer"
+              className="font-serif text-2xl font-bold tracking-wider text-white inline-flex items-center gap-2.5 text-left cursor-pointer group"
             >
+              <div className="bg-white p-1 rounded-lg">
+                <img 
+                  src="/tadi-logo.svg" 
+                  alt="Logotipo TADI" 
+                  className="h-8 w-auto object-contain" 
+                />
+              </div>
               <span className="text-[#D4AF37]">TADI</span>
             </button>
             <p className="text-xs text-stone-400 leading-relaxed font-light">

@@ -165,6 +165,15 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate, onOpenOrderForm 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
           
           <div className="text-center space-y-3">
+            <div className="flex justify-center pb-2">
+              <div className="p-3 bg-white rounded-2xl shadow-sm border border-stone-100 inline-block">
+                <img 
+                  src="/tadi-logo.svg" 
+                  alt="Logotipo Oficial TADI" 
+                  className="h-16 sm:h-20 w-auto object-contain mx-auto" 
+                />
+              </div>
+            </div>
             <span className="text-xs font-semibold text-[#997736] uppercase tracking-widest">
               Nuestra Esencia
             </span>

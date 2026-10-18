@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 460" width="1040" height="920">
+  <defs>
+    <style>
+      .purple-stroke { stroke: #5C1D6E; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+      .cyan-stroke { stroke: #00D0D4; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+      .orange-stroke { stroke: #FF5E00; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+      .envelope-fill { fill: #ffffff; stroke: #5C1D6E; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <!-- Clean Background -->
+  <rect width="520" height="460" fill="#ffffff" />
+
+  <!-- Outer Rounded Purple Container with generous rounded corners -->
+  <rect x="38" y="38" width="444" height="384" rx="44" ry="44" class="purple-stroke" stroke-width="12" />
+
+  <!-- === LEFT GRAPHIC: SMARTPHONE WITH CALENDAR AND ENVELOPE === -->
+  <!-- Left Side Button (Volume) -->
+  <path d="M 82 154 L 82 178" class="cyan-stroke" stroke-width="8" stroke-linecap="round" />
+  <!-- Right Side Button (Power) -->
+  <path d="M 252 148 L 252 188" class="cyan-stroke" stroke-width="8" stroke-linecap="round" />
+
+  <!-- Phone Main Body Outline -->
+  <rect x="90" y="92" width="154" height="276" rx="24" class="cyan-stroke" stroke-width="8.5" />
+
+  <!-- Phone Top Speaker line -->
+  <line x1="145" y1="112" x2="190" y2="112" class="cyan-stroke" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Phone Bottom Home Pill -->
+  <line x1="150" y1="348" x2="185" y2="348" class="cyan-stroke" stroke-width="7" stroke-linecap="round" />
+
+  <!-- Calendar (Inside Top-Left of Phone Screen) -->
+  <rect x="68" y="132" width="68" height="60" rx="8" class="orange-stroke" stroke-width="5.5" fill="#ffffff" />
+  <!-- Calendar Binder Loops -->
+  <line x1="86" y1="124" x2="86" y2="134" class="orange-stroke" stroke-width="5" />
+  <line x1="118" y1="124" x2="118" y2="134" class="orange-stroke" stroke-width="5" />
+  <!-- Calendar Header Line -->
+  <line x1="69" y1="148" x2="135" y2="148" class="orange-stroke" stroke-width="4" />
+  <!-- Date Dots Grid Row 1 -->
+  <rect x="78" y="156" width="6.5" height="6.5" rx="1" fill="#FF5E00" />
+  <rect x="92" y="156" width="6.5" height="6.5" rx="1" fill="#FF5E00" />
+  <rect x="106" y="156" width="6.5" height="6.5" rx="1" fill="#FF5E00" />
+  <rect x="120" y="156" width="6.5" height="6.5" rx="1" fill="#FF5E00" />
+  <!-- Date Dots Grid Row 2 -->
+  <rect x="78" y="169" width="6.5" height="6.5" rx="1" fill="#FF5E00" />
+  <rect x="92" y="169" width="6.5" height="6.5" rx="1" fill="#FF5E00" />
+  <rect x="106" y="169" width="6.5" height="6.5" rx="1" fill="#FF5E00" />
+  <!-- Star icon overlapping bottom right of calendar -->
+  <polygon points="130,166 133,174 142,174 135,180 138,188 130,183 122,188 125,180 118,174 127,174" fill="#ffffff" stroke="#FF5E00" stroke-width="3.5" stroke-linejoin="round" />
+
+  <!-- Envelope with Heart Across Lower Half of Phone -->
+  <rect x="142" y="214" width="138" height="94" rx="14" class="envelope-fill" />
+  <!-- Envelope Flap V lines -->
+  <path d="M 144 216 L 211 260 L 278 216" class="purple-stroke" stroke-width="8.5" />
+  <!-- Envelope Bottom Fold lines -->
+  <path d="M 144 306 L 194 266" class="purple-stroke" stroke-width="8" />
+  <path d="M 278 306 L 228 266" class="purple-stroke" stroke-width="8" />
+  <!-- Central Heart Outline on Envelope -->
+  <path d="M 211 270 C 211 270 190 254 190 240 C 190 231 198 225 206 229 C 209 230 211 233 211 233 C 211 233 214 230 216 229 C 224 225 232 231 232 240 C 232 254 211 270 211 270 Z" fill="#ffffff" stroke="#5C1D6E" stroke-width="8" stroke-linejoin="round" />
+
+  <!-- === RIGHT WORDMARK: 'TADI' === -->
+  <!-- Letter 't' (Bright Orange) -->
+  <g>
+    <!-- Crossbar -->
+    <rect x="276" y="146" width="50" height="25" rx="0" fill="#FF5E00" />
+    <!-- Vertical stem with slanted cut top -->
+    <path d="M 298 94 L 323 103 L 323 242 L 298 242 Z" fill="#FF5E00" />
+  </g>
+
+  <!-- Letter 'a' (Bright Cyan) -->
+  <g>
+    <path d="M 398 146 C 368 146 346 168 346 196 C 346 224 368 246 398 246 C 412 246 424 238 432 227 L 432 244 L 454 244 L 454 148 L 432 148 L 432 165 C 424 154 412 146 398 146 Z M 400 170 C 414 170 430 182 430 196 C 430 210 414 222 400 222 C 386 222 370 210 370 196 C 370 182 386 170 400 170 Z" fill="#00D0D4" />
+  </g>
+
+  <!-- Letter 'd' (Vibrant Magenta/Pink) -->
+  <g>
+    <path d="M 330 214 L 354 214 L 354 266 C 346 254 332 246 316 246 C 288 246 266 268 266 298 C 266 328 288 350 316 350 C 332 350 346 342 354 330 L 354 356 C 354 376 340 388 320 388 L 310 388 L 310 410 L 320 410 C 354 410 378 390 378 356 L 378 214 L 330 214 Z M 320 268 C 336 268 354 282 354 298 C 354 314 336 328 320 328 C 302 328 290 314 290 298 C 290 282 302 268 320 268 Z" fill="#ED1B76" />
+  </g>
+
+  <!-- Letter 'i' (Deep Purple with Overlap Box) -->
+  <g>
+    <!-- Multiply blend intersection square -->
+    <rect x="400" y="218" width="30" height="28" fill="#3D144A" />
+    <!-- Straight vertical stem of i -->
+    <rect x="400" y="246" width="30" height="104" rx="0" fill="#5C1D6E" />
+  </g>
+</svg>
