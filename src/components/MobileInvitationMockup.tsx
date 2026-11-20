@@ -43,11 +43,10 @@ export const MobileInvitationMockup: React.FC<MobileInvitationMockupProps> = ({ 
             className="w-full h-full object-cover object-top transition-transform duration-500 group-hover/phone:scale-105"
             onError={(e) => {
               const img = e.currentTarget;
+              if (img.dataset.fallbackTried) return;
+              img.dataset.fallbackTried = '1';
               const altExt = item.previewImage.endsWith('.png') ? '.jpg' : '.png';
-              const fallback = '/catalog/' + item.id + altExt;
-              if (img.src !== fallback) {
-                img.src = fallback;
-              }
+              img.src = './catalog/' + item.id + altExt;
             }}
           />
 

@@ -168,10 +168,10 @@ export const PricingPackagesSection: React.FC = () => {
 
                     {isSobres && (
                       <div className="relative group rounded-xl overflow-hidden border border-amber-200/90 bg-stone-900 aspect-[4/3] flex items-center justify-center cursor-pointer"
-                        onClick={() => setEnvelopeModalImage('/sobres 001.png')}
+                        onClick={() => setEnvelopeModalImage('./sobres 001.png')}
                       >
                         <img
-                          src="/sobres 001.png"
+                          src="./sobres 001.png"
                           alt="sobres 001.png - Ejemplo de Imagen Tipo Sobre TADI"
                           className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-300"
                         />
@@ -192,7 +192,7 @@ export const PricingPackagesSection: React.FC = () => {
                     {isSobres && (
                       <button
                         type="button"
-                        onClick={() => setEnvelopeModalImage('/sobres 001.png')}
+                        onClick={() => setEnvelopeModalImage('./sobres 001.png')}
                         className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-800 hover:text-amber-900 underline underline-offset-2 cursor-pointer pt-1"
                       >
                         <ZoomIn className="w-3.5 h-3.5" />
@@ -297,11 +297,11 @@ export const PricingPackagesSection: React.FC = () => {
                   <div className="p-3 rounded-xl bg-amber-950/40 border border-amber-500/40 flex items-center justify-between gap-3 text-xs">
                     <div className="flex items-center gap-3">
                       <div 
-                        onClick={() => setEnvelopeModalImage('/sobres 001.png')}
+                        onClick={() => setEnvelopeModalImage('./sobres 001.png')}
                         className="w-12 h-14 bg-stone-900 rounded-lg overflow-hidden border border-amber-400/50 shrink-0 cursor-pointer hover:opacity-90 flex items-center justify-center"
                       >
                         <img 
-                          src="/sobres 001.png" 
+                          src="./sobres 001.png" 
                           alt="sobres 001.png" 
                           className="w-full h-full object-contain p-0.5" 
                         />
@@ -313,7 +313,7 @@ export const PricingPackagesSection: React.FC = () => {
                     </div>
                     <button
                       type="button"
-                      onClick={() => setEnvelopeModalImage('/sobres 001.png')}
+                      onClick={() => setEnvelopeModalImage('./sobres 001.png')}
                       className="px-2.5 py-1.5 bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-500/40 rounded-lg text-[11px] font-serif font-bold shrink-0 transition-colors cursor-pointer"
                     >
                       Ver Ejemplo

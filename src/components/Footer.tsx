@@ -26,7 +26,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenOrderForm, onNavigate }) =
             >
               <div className="bg-white p-1 rounded-lg">
                 <img 
-                  src="/tadi-logo.svg" 
+                  src="./tadi-logo.svg" 
                   alt="Logotipo TADI" 
                   className="h-8 w-auto object-contain" 
                 />

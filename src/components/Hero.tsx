@@ -96,7 +96,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreCatalog }) => {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-stone-200/80 bg-white">
                 <div className="aspect-[4/3] sm:aspect-[16/11] overflow-hidden bg-stone-200 relative group">
                   <img
-                    src="/catalog/boda-001.png"
+                    src="./catalog/boda-001.png"
                     alt="Muestra de invitación digital moderna de TADI Boda 001 Tipo Sobre con Solapa"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700"

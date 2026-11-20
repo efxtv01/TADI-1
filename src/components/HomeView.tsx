@@ -49,7 +49,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate, onOpenOrderForm 
               >
                 <div className="aspect-[4/3] overflow-hidden">
                   <img
-                    src="/catalog/boda-001.png"
+                    src="./catalog/boda-001.png"
                     alt="Invitaciones Digitales - Bodas, 15 Años, etc."
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90"
@@ -70,7 +70,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate, onOpenOrderForm 
               >
                 <div className="aspect-[4/3] overflow-hidden">
                   <img
-                    src="/catalog/varias-001.jpg"
+                    src="./catalog/varias-001.jpg"
                     alt="Tarjetas Digitales Empresariales - Para empleados y ejecutivos"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90"
@@ -91,7 +91,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate, onOpenOrderForm 
               >
                 <div className="aspect-[4/3] overflow-hidden">
                   <img
-                    src="/catalog/xv-001.png"
+                    src="./catalog/xv-001.png"
                     alt="Video Invitaciones para Reels y WhatsApp"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90"
@@ -168,7 +168,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate, onOpenOrderForm 
             <div className="flex justify-center pb-2">
               <div className="p-3 bg-white rounded-2xl shadow-sm border border-stone-100 inline-block">
                 <img 
-                  src="/tadi-logo.svg" 
+                  src="./tadi-logo.svg" 
                   alt="Logotipo Oficial TADI" 
                   className="h-16 sm:h-20 w-auto object-contain mx-auto" 
                 />

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Play, Video, ExternalLink, Youtube, Sparkles, CheckCircle2 } from 'lucide-react';
+import birthdayCoverImg from '../assets/images/tadi_catalog_birthday_celebration_1791317852461.jpg';
 
 export const VideoSamplesSection: React.FC = () => {
   return (
@@ -66,7 +67,7 @@ export const VideoSamplesSection: React.FC = () => {
               
               <div className="relative aspect-[16/10] bg-stone-950 rounded-2xl overflow-hidden flex items-center justify-center border border-stone-800 group">
                 <img
-                  src="/src/assets/images/tadi_catalog_birthday_celebration_1791317852461.jpg"
+                  src={birthdayCoverImg}
                   alt="Muestra de video invitación"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity"

@@ -29,7 +29,7 @@ export const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate, onOpenO
             className="font-serif text-2xl sm:text-3xl font-semibold tracking-wider text-stone-900 group flex items-center gap-2.5 text-left cursor-pointer"
           >
             <img 
-              src="/tadi-logo.svg" 
+              src="./tadi-logo.svg" 
               alt="Logotipo TADI" 
               className="h-9 sm:h-11 w-auto object-contain transition-transform group-hover:scale-105" 
             />
